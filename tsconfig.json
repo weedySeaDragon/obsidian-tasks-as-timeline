@@ -23,7 +23,7 @@
   },
   "include": [
     "**/*.ts",
-    "Obsidian-Tasks-Timeline/src/components/asserts/icons.tsx",
+    "Obsidian-Tasks-Timeline/src/components/assets/icons.tsx",
     "src/views.tsx"
   ]
 }
