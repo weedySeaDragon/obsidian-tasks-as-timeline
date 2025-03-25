@@ -1,7 +1,7 @@
 import { Model } from "backbone";
 import { ItemView, moment, Notice, WorkspaceLeaf } from "obsidian";
-import { ObsidianBridge } from 'Obsidian-Tasks-Timeline/src/obsidianbridge';
-import { ObsidianTaskAdapter } from "Obsidian-Tasks-Timeline/src/taskadapter";
+import { ObsidianBridge } from 'obsid-tasks-timeline/src/obsidianbridge';
+import { ObsidianTaskAdapter } from "obsid-tasks-timeline/src/taskadapter";
 import { createRoot, Root } from 'react-dom/client';
 import * as TaskMapable from 'utils/taskmapable';
 import { TaskDataModel, TaskStatus, TaskStatusMarkerMap } from "utils/tasks";
@@ -25,7 +25,7 @@ export class TasksTimelineView extends BaseTasksView {
         taskList: [] as TaskDataModel[],
     });
 
-    private isReloading: boolean = false;
+    private isReloading = false;
     private userOptionModel = new Model({ ...defaultUserOptions });
     static view: TasksTimelineView | null = null;
     constructor(leaf: WorkspaceLeaf) {
