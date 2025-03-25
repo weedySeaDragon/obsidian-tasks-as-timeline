@@ -1,16 +1,9 @@
-# NEWS about v1.0
-
-I am currently refactoring this plugin with NextUI components, to make this plugin more maintainable and expandable, more features and better visualization will come with this major revision!
-Here is a very eary preview, please do leave an issue if you have any thoughts! The new timeline view implementation repo: https://github.com/Leonezz/tasks-timeline-view
-
-![image](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper/assets/33564074/69d5a590-9d61-4a5a-9cd3-94a5598d4d50)
-
-
 # Tasks Calendar Wrapper
 
 ![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&color=%23483699&label=downloads&query=%24%5B%22tasks-calendar-wrapper%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json)
 
 This plugin currently provides a timeline view to display your tasks from your [obsidian](https://obsidian.md/) vault, with customizable filters and rendering options.
+
 
 ## Overview
 
@@ -28,7 +21,7 @@ The [ExampleVault](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper/tr
 
 This is a simple wrapper for Obsidian-Tasks-Calendar (https://github.com/702573N/Obsidian-Tasks-Calendar) and Obsidian-Tasks-Timeline (https://github.com/702573N/Obsidian-Tasks-Timeline).
 
-This plugin provides setting pages and update support for [702573N](https://github.com/702573N)'s great work, for detailed information
+This plugin is based on  [the tasks-calendar-wrapper plugin by Leonezz](https://github.com/Leonezz/obsidian-tasks-calendar-wrapper) provides setting pages and update support for [702573N](https://github.com/702573N)'s great work, for detailed information
 about the options, see [Obsidian-Tasks-Calendar](https://github.com/702573N/Obsidian-Tasks-Calendar) and [Obsidian-Tasks-Timeline](https://github.com/702573N/Obsidian-Tasks-Timeline).
 
 ## Usage
@@ -170,8 +163,3 @@ Modification to the options will take effect after 5 secs.
 # License
 
 MIT.
-
-# Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=leonezz/obsidian-tasks-calendar-wrapper&type=Date)](https://star-history.com/#leonezz/obsidian-tasks-calendar-wrapper&Date)
-

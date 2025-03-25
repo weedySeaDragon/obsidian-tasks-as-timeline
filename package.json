@@ -1,7 +1,10 @@
 {
-	"name": "tasks-calendar-wrapper",
-	"version": "0.3.1",
-	"description": "This is a simple wrapper for Obsidian-Tasks-Calendar (https://github.com/702573N/Obsidian-Tasks-Calendar) and Obsidian-Tasks-Timeline (https://github.com/702573N/Obsidian-Tasks-Timeline).",
+	"name": "tasks-as-timeline",
+	"version": "0.0.1",
+	"description": "Obsidian plugin: Display your tasks as a vertical timeline. Forked from https://github.com/Leonezz/obsidian-tasks-calendar-wrapper. Based on work by  (https://github.com/702573N/Obsidian-Tasks-Calendar) and Obsidian-Tasks-Timeline (https://github.com/702573N/Obsidian-Tasks-Timeline).",
+	"author": "Ashley Engelund weedySeaDragon @ github ashley.engelund@gmail.com",
+	"license": "MIT",
+	"keywords": ["Obsidian", "obsidian plugin", "obsidian-plugin","obsidian tasks", "timeline"],
 	"main": "src/main.ts",
 	"scripts": {
 		"dev": "cp manifest.json ExampleVault/.obsidian/plugins/tasks-view/ && node esbuild.config.mjs",
@@ -10,9 +13,6 @@
 		"eslint": "npx eslint */**.ts",
 		"eslint:fix": "npx eslint --fix */**.ts ; exit 0"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "MIT",
 	"devDependencies": {
 		"@svgr/webpack": "^6.5.1",
 		"@types/backbone": "^1.4.15",
